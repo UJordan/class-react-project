@@ -1,14 +1,15 @@
 import Header from './components/Header';
-import logo from './logo.svg';
-import './App.css';
-import CampsitesList from './features/campsites/CampsitesList';
 import Footer from './components/Footer';
+// import logo from './logo.svg';
+import CampsitesDirectoryPage from './pages/CampsitesDirectoryPage';
+import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Header />
-      <CampsitesList />
+      <CampsitesDirectoryPage />
       <Footer />
     </div>
   );
